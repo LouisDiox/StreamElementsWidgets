@@ -1,0 +1,156 @@
+body{
+	margin : 0;
+  	box-sizing: border-box;
+  	height : 100vh;
+  	font-family : {{PopupfontType}}, sans-serif;
+  	color: white;
+  	background-color: transparent;
+}
+
+#container{
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+  opacity: 0;
+}
+
+#container.transition{
+  transform-origin : center;
+  animation-name: {{TransitionType}};
+  animation-duration: {{TransitionDuration}}s;
+}
+
+#container.transitionreverse{
+  opacity: 1;
+  transform-origin : center;
+  animation-name: {{TransitionType}};
+  animation-duration: {{TransitionDuration}}s;
+  animation-direction: reverse;
+}
+
+#popup{ 
+  width : 650px;
+  background-color: {{backgroundColor}};
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#icon{
+	position: absolute;
+	top: -35px;
+	left: 15px;
+	width: 90px;
+	height : 90px;
+	z-index: 2;
+    transform: scale({{IconSize}});
+}
+
+#pseudo{
+    margin-left: {{usernameMargin}}px; 
+    font-size: 2.3rem;
+    color: {{PseudoColor}}
+}
+
+.badge{
+    width: 1em;
+}
+
+#badges{
+    vertical-align: middle; 
+}
+
+#text{
+    font-size: 1.5rem;
+    color: {{TextColor}};
+    margin-bottom: 3rem
+}
+
+#timerbar{
+    background-color: {{TimerBarColor}};
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#timerbar.anim{
+    animation: cooldown {{widgetDuration}}s linear forwards;
+}
+
+
+
+@keyframes cooldown{
+ 	
+  from{
+    width: 100%; 
+  }
+  to{
+    width: 0%;
+  }
+}
+
+/* Animations */
+@keyframes BounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+
+  40% {
+    transform: scale(0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+
+  80% {
+    transform: scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes SlideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

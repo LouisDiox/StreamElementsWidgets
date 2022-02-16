@@ -1,0 +1,160 @@
+{
+    "widgetEdit": {
+      "type": "checkbox",
+      "label": "Edit display",
+      "group" : "Configuration"
+    },
+    "audioNotification": {
+     "type": "sound-input",
+     "label": "Sound played when the command is called",
+     "group": "Configuration"
+   },
+    "audioVolume": {
+      "type": "slider",
+      "label": "sound volume",
+      "value": 0.5,
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "group": "Configuration"
+    },
+    "widgetDuration": {
+      "type": "slider",
+      "label": "Widget duration",
+      "value": 10,
+      "min": 5,
+      "max": 20,
+      "step": 1,
+      "group" : "Configuration"
+    },
+    "imageIcon": {
+      "label": "Icon (.png)",
+      "type": "image-input",
+      "value": "https://img.icons8.com/color/48/000000/twitch--v3.png",
+      "group" : "Configuration"
+    },
+    "IconSize": {
+      "type": "slider",
+      "label": "Icon size",
+      "value": 1,
+      "min": 0.5,
+      "max": 2,
+      "step": 0.1,
+      "group" : "Configuration"
+    },
+    "usernameMargin": {
+      "type": "slider",
+      "label": "Username margin",
+      "value": 80,
+      "min": 50,
+      "max": 200,
+      "step": 2,
+      "group" : "Configuration"
+    },
+    "customCommand": {
+      "type": "text",
+      "label": "Command (!broadcast by default)",
+      "value": "",
+      "group" : "Configuration"
+    },
+    "displayBadges": {
+      "type": "checkbox",
+      "label": "Display user badges",
+      "group" : "Configuration"
+    },
+    "PopupfontType": {
+        "type": "googleFont",
+        "label": "Text font",
+        "value": "Roboto",
+        "group" : "Style"
+    },
+    "backgroundColor": {
+      "type": "colorpicker",
+      "label": "Couleur du background",
+      "value": "rgba(167, 73, 207, 0.73)",
+      "group" : "Style"
+    },
+    "PseudoColor": {
+      "type": "colorpicker",
+      "label": "Username Color",
+      "value": "#FFF",
+      "group" : "Style"
+    },
+    "autoPseudoColor": {
+      "type": "checkbox",
+      "label": "User color as displayed on twitch chat",
+      "group" : "Style"
+    },
+    "TextColor": {
+      "type": "colorpicker",
+      "label": "Text Color",
+      "value": "#FFF",
+      "group" : "Style"
+    },
+    "TimerBarColor": {
+      "type": "colorpicker",
+      "label": "Timer bar color",
+      "value": "#FFF",
+      "group" : "Style"
+    },
+    "TransitionType": {
+      "type": "dropdown",
+      "label": "Transition Type",
+      "value": "FadeIn",
+      "options": {
+        "FadeIn": "FadeIn",
+        "SlideInLeft": "SlideInLeft",
+        "BounceIn" : "BounceIn"
+      },
+      "group" : "Transition"
+    },
+      "TransitionDuration": {
+      "type": "slider",
+      "label": "Transition duration",
+      "value": 1,
+      "min": 0.5,
+      "max": 2,
+      "step": 0.1,
+      "group" : "Transition"
+    },
+    "Author": {
+      "type": "hidden",
+      "label": "Widget created by Louis_Diox",
+      "group": "Credentials"
+    },
+    "SocialMedia": {
+      "type": "hidden",
+      "label": "▬▬▬▬▬ Social Medias ▬▬▬▬▬",
+      "group": "Credentials"
+    },
+    "SocialMedia2": {
+      "type": "hidden",
+      "label": "• https://twitter.com/Diox90",
+      "group": "Credentials"
+    },
+    "SocialMedia3": {
+      "type": "hidden",
+      "label": "• https://www.twitch.tv/louis_diox",
+      "group": "Credentials"
+    },
+    "SocialMedia4": {
+      "type": "hidden",
+      "label": "• https://discord.gg/KDqS3myxft",
+      "group": "Credentials"
+    },
+    "widgetName": {
+      "type": "hidden",
+      "value": "Advanced SubGoal",
+      "group": "Credentials"
+    },
+    "widgetAuthor": {
+      "type": "hidden",
+      "value": "Louis_Diox",
+      "group": "Credentials"
+    },
+    "widgetVersion": {
+      "type": "hidden",
+      "value": "1.0",
+      "group": "Credentials"
+    }
+  }
