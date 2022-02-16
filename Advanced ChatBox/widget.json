@@ -1,0 +1,117 @@
+{
+    "fontType": {
+        "type": "googleFont",
+        "label": "Text font",
+        "value": "Roboto",
+        "group" : "Configuration"
+    },
+    "banwords": {
+      "type": "text",
+      "label": "Banned words (separate with a comma)",
+      "value": "",
+      "group" : "Configuration"
+  
+    },
+    "banUsers": {
+      "type": "text",
+      "label": "Hidden users (separate with a comma)",
+      "value": "",
+      "group" : "Configuration"
+  
+    },
+    "hideCommand": {
+      "type": "checkbox",
+      "label": "Hide commands",
+      "group" : "Configuration"
+    },
+    "animationDisplay": {
+      "type": "checkbox",
+      "label": "Show animations",
+      "group" : "Animations"
+    },
+    "animationType": {
+      "type": "dropdown",
+      "label": "Animation Type",
+      "value": "FadeIn",
+      "options": {
+        "FadeIn": "FadeIn",
+        "SlideInLeft": "SlideInLeft",
+        "BounceIn" : "BounceIn"
+      },
+      "group" : "Animations"
+    },
+    "animationDuration": {
+      "type": "slider",
+      "label": "Animation duration",
+      "value": 0.5,
+      "min": 0,
+      "max": 2,
+      "step": 0.1,
+      "group" : "Animations"
+    },
+    "hideBackground": {
+      "type": "checkbox",
+      "label": "Hide background",
+      "group" : "Background"
+    },
+    "backgroundColor": {
+      "type": "colorpicker",
+      "label": "Background Color",
+      "value": "true",
+      "group" : "Background"
+    },
+    "backgroundRounded": {
+      "type": "checkbox",
+      "label": "Rounded edges",
+      "group" : "Background"
+    },
+    "backgroundRoundedValue": {
+      "type": "slider",
+      "label": "Rounding value",
+      "value": 10,
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "group" : "Background"
+    },
+    "Author": {
+      "type": "hidden",
+      "label": "Widget created by Louis_Diox",
+      "group": "Credentials"
+    },
+    "SocialMedia": {
+      "type": "hidden",
+      "label": "▬▬▬▬▬ Social Medias ▬▬▬▬▬",
+      "group": "Credentials"
+    },
+    "SocialMedia2": {
+      "type": "hidden",
+      "label": "• https://twitter.com/Diox90",
+      "group": "Credentials"
+    },
+    "SocialMedia3": {
+      "type": "hidden",
+      "label": "• https://www.twitch.tv/louis_diox",
+      "group": "Credentials"
+    },
+    "SocialMedia4": {
+      "type": "hidden",
+      "label": "• https://discord.gg/KDqS3myxft",
+      "group": "Credentials"
+    },
+    "widgetName": {
+      "type": "hidden",
+      "value": "Advanced SubGoal",
+      "group": "Credentials"
+    },
+    "widgetAuthor": {
+      "type": "hidden",
+      "value": "Louis_Diox",
+      "group": "Credentials"
+    },
+    "widgetVersion": {
+      "type": "hidden",
+      "value": "1.0",
+      "group": "Credentials"
+    }
+  }

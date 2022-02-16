@@ -1,0 +1,116 @@
+body{
+    font-size: 18px;
+    height : 100vh;
+    width: 100%;
+}
+   
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#chatbox{
+    margin-left: 2%;
+    color: white;
+    height: 75vh;
+    width: 25%;
+    background-color: {{backgroundColor}};
+    font-family : {{fontType}} , sans-serif;
+    font-weight: 400;
+    padding: 0rem 0.5rem 0.25rem 0.7rem;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+
+.badges{ 
+    display: inline;
+    vertical-align: middle
+}
+
+.badge{
+    width: 1.5rem;
+    height : 1.5rem;
+}
+
+.emote{
+    vertical-align: sub;
+}
+
+.message{
+    width: fit-content;
+    margin: 0.3rem 0rem 0.3rem 0rem
+}
+
+.message.anim{
+    opacity : 0;
+    transform-origin : center;
+    animation-name: {{animationType}};
+    animation-duration: {{animationDuration}}s;
+    animation-fill-mode: forwards;
+}
+
+/* Animations */
+@keyframes BounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    20% {
+        
+    }
+
+    40% {
+        
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1.03);
+    }
+
+    80% {
+        
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* IMPORTANT ! "%" unit in animations seems to glitch on OBS browser source*/
+@keyframes SlideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+   
+   
