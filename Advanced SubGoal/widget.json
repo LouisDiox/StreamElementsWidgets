@@ -1,0 +1,198 @@
+{
+  "num_steps": {
+    "type": "number",
+    "label": "auto increment",
+    "value": 10,
+    "min": 1,
+    "group": "Configuration"
+  },
+  "adjustment": {
+    "type": "number",
+    "label": "Manual sub adjustment",
+    "value": 0,
+    "group": "Configuration"
+  },
+  "force-subGoal":{
+    "type": "number",
+    "label": "Custom Sub Goal",
+    "value": null,
+    "min": 0,
+    "group": "Configuration"
+  },
+  "goalSound": {
+   "type": "sound-input",
+   "label": "Sound played when the goal is reached",
+   "group": "Configuration"
+ },
+  "goalSoundVolume": {
+    "type": "slider",
+    "label": "sound volume",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Configuration"
+  },
+  "transparent": {
+  	"type": "dropdown",
+  	"label": "Transparent background",
+  	"value": "no",
+  	"options": {
+    	"yes": "yes",
+    	"no": "no"
+	},
+    "group": "Styles"
+  },
+  "disposition": {
+  	"type": "dropdown",
+  	"label": "Layout",
+  	"value": "basic",
+  	"options": {
+    	"basic": "basic",
+    	"decal": "shifted",
+      	"decalInvert": "inverted shifted"
+	},
+    "group": "Styles"
+  },
+  "currentSubSize": {
+    "type": "slider",
+    "label": "Sub counter size",
+    "value": 50,
+    "min": 25,
+    "max": 100,
+    "step": 1,
+    "group": "Styles"
+  },
+  "separatorSize": {
+    "type": "slider",
+    "label": "Separator size",
+    "value": 50,
+    "min": 25,
+    "max": 100,
+    "step": 1,
+    "group": "Styles"
+  },
+  "goalSize": {
+    "type": "slider",
+    "label": "Sub goal size",
+    "value": 50,
+    "min": 25,
+    "max": 100,
+    "step": 1,
+    "group": "Styles"
+  },
+  "separator": {
+    "type": "text",
+    "label": "Separator character",
+    "value": "/",
+    "group": "Styles"
+  },
+  "SubGoalfontType": {
+      "type": "googleFont",
+      "label": "Font",
+      "value": "Allerta",
+    "group": "Styles"
+  },
+  "textStroke": {
+    "type": "checkbox",
+    "label": "enable text outline",
+    "group": "Styles"
+  },
+   "textStrokeColor": {
+    "type": "colorpicker",
+    "label": "outline color",
+     "value": "#000",
+     "group": "Styles"
+  },
+  "textStrokeWidth": {
+    "type": "slider",
+    "label": "outline width",
+    "value": 1,
+    "min": 1,
+    "max": 4,
+    "step": 1,
+    "group": "Styles"
+  },
+  "subs_color": {
+    "type": "colorpicker",
+    "label": "Sub counter color",
+    "value": "#FFFF",
+    "group": "Styles"
+  },
+  "separator_color": {
+    "type": "colorpicker",
+    "label": "Separator color",
+    "value": "#FFFF",
+    "group": "Styles"
+  },
+  "goal_color": {
+    "type": "colorpicker",
+    "label": "Sub goal color",
+    "value": "#9C9C9C",
+    "group": "Styles"
+  },
+  "animations": {
+   "type": "dropdown",
+   "label": "Enable animations",
+   "value": "no",
+   "options": {
+     "yes": "yes",
+     "no": "no"
+     },
+    "group": "Animations"
+  },
+  "animation_type": {
+   "type": "dropdown",
+   "label": "Animation type",
+   "value": null,
+   "options": {
+     "random": "random",
+     "heartBeat": "heartBeat",
+     "bounce": "bounce",
+     "shakeX": "shake",
+     "tada": "tada"
+     },
+    "group": "Animations"
+  },
+  "animation_color": {
+    "type": "colorpicker",
+    "label": "Animation color",
+    "value": "#CBC84B",
+    "group": "Animations"
+  },
+  "Author": {
+    "type": "hidden",
+    "label": "Widget created by Louis_Diox",
+    "group": "Credentials"
+  },
+  "SocialMedia": {
+    "type": "hidden",
+    "label": "▬▬▬▬▬ Social Medias ▬▬▬▬▬",
+    "group": "Credentials"
+  },
+  "SocialMedia2": {
+    "type": "hidden",
+    "label": "• https://twitter.com/Diox90",
+    "group": "Credentials"
+  },
+  "SocialMedia3": {
+    "type": "hidden",
+    "label": "• https://twitch.tv/louis_diox",
+    "group": "Credentials"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Advanced SubGoal",
+    "group": "Credentials"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "Louis_Diox",
+    "group": "Credentials"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "1.0",
+    "group": "Credentials"
+  }
+}
