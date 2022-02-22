@@ -2,9 +2,7 @@
 
 ## Installation :
 
-- Un live est lancé
-- Une nouvelle vidéo sort
-- Une nouvelle photo instagram est publiée
+(en cours de création)
 
 <br />
 
