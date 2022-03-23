@@ -116,5 +116,5 @@ window.addEventListener('onEventReceived', function (obj) {
     			$('#div-goal').removeClass(animationType);
             });
       	}
-  	}
+  }
 });
