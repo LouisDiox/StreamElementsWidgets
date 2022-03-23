@@ -19,7 +19,7 @@ widget.json → FIELDS
 - Configurer votre overlay et ajoutez le sur votre logiciel de streaming
 - Enjoy ! 👍
 
-En cas de problèmes ou de difficultés lors de l'installation, vous pouvez me contacter à cette adresse <a href="mailto:john@example.com">mail</a>
+En cas de problèmes ou de difficultés lors de l'installation, vous pouvez me contacter à cette adresse <a href="mailto:contact@louisdiox.fr">mail</a>
 
 
 ### Mes réseaux
