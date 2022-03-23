@@ -2,13 +2,20 @@
 
 ## Installation :
 
-→ Rendez vous sur [streamElements] <br />
-→ Cliquez sur <b>New Overlay</b> <br />
-→ Choisissez la résolution de votre stream <br />
-→ Cliquez sur le bonton <b>ADD WIDGET</b> et choisissez "Custom Widget" dans la catégorie Static/Custom <br />
-→ Cliquez sur <b>OPEN EDITOR</b><br />
-→ Supprimez TOUT le code présent dans les onglets HTML, CSS, JS et FIELDS <br />
-→ 
+- Rendez vous sur [streamElements] <br />
+- Cliquez sur **New Overlay** <br />
+- Choisissez la résolution de votre stream <br />
+- Cliquez sur le bonton **ADD WIDGET** et choisissez "Custom Widget" dans la catégorie Static/Custom <br />
+- Cliquez sur **OPEN EDITOR**<br />
+- Remplacer le code des onglets comme ci dessous <br />
+```
+widget.html → HTML
+widget.css → CSS
+widget.js → JS
+widget.json → FIELDS
+```
+- Cliquez sur le bouton DONE
+- 
 
 
 ### Mes réseaux
