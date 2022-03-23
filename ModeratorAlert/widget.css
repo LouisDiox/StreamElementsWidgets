@@ -9,8 +9,8 @@ body{
 
 #container{
   position: absolute;
-  bottom: 200px;
-  left: 50px;
+  bottom: 100px;
+  right: 50px;
   opacity: 0;
 }
 
@@ -45,40 +45,44 @@ body{
 	width: 90px;
 	height : 90px;
 	z-index: 2;
-    transform: scale({{IconSize}});
+  transform: scale({{IconSize}});
 }
 
 #pseudo{
-    margin-left: {{usernameMargin}}px; 
-    font-size: 2.3rem;
-    color: {{PseudoColor}}
+  margin-left: {{usernameMargin}}px; 
+ font-size: 2.3rem;
+ color: {{PseudoColor}}
 }
 
 .badge{
-    width: 1em;
+  width: 1em;
+}
+
+.badge:not(:last-child){
+ margin-right: 0.15em; 
 }
 
 #badges{
-    vertical-align: middle; 
+ vertical-align: middle; 
 }
 
 #text{
-    font-size: 1.5rem;
-    color: {{TextColor}};
-    margin-bottom: 3rem
+ font-size: 1.5rem;
+ color: {{TextColor}};
+ margin-bottom: 3rem
 }
 
 #timerbar{
-    background-color: {{TimerBarColor}};
-    height: 15px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  background-color: {{TimerBarColor}};
+  height: 15px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #timerbar.anim{
-    animation: cooldown {{widgetDuration}}s linear forwards;
+  animation: cooldown {{widgetDuration}}s linear forwards;
 }
 
 
@@ -86,7 +90,7 @@ body{
 @keyframes cooldown{
  	
   from{
-    width: 100%; 
+   width: 100%; 
   }
   to{
     width: 0%;
@@ -147,6 +151,18 @@ body{
   from {
     opacity: 0;
     transform: translateX(-250px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes SlideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(250px);
   }
 
   to {
