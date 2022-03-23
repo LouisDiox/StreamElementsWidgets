@@ -15,7 +15,11 @@ widget.js → JS
 widget.json → FIELDS
 ```
 - Cliquez sur le bouton DONE
-- 
+- Pensez à sauvegarder votre overlay en cliquant sur le bouton SAVE en haut à droite de l'éditeur streamelements
+- Configurer votre overlay et ajoutez le sur votre logiciel de streaming
+- Enjoy ! 👍
+
+<a href="mailto:john@example.com">Me contacter </a>
 
 
 ### Mes réseaux
