@@ -1,32 +1,32 @@
 {
   "num_steps": {
     "type": "number",
-    "label": "Incrémentation automatique",
+    "label": "auto increment",
     "value": 10,
     "min": 1,
     "group": "Configuration"
   },
   "adjustment": {
     "type": "number",
-    "label": "Ajustement manuel",
+    "label": "Manual sub adjustment",
     "value": 0,
     "group": "Configuration"
   },
   "force-subGoal":{
     "type": "number",
-    "label": "Goal customisé",
+    "label": "Custom Sub Goal",
     "value": null,
     "min": 0,
     "group": "Configuration"
   },
   "goalSound": {
    "type": "sound-input",
-   "label": "Alerte sonore quand le goal est atteint",
+   "label": "Sound played when the goal is reached",
    "group": "Configuration"
  },
   "goalSoundVolume": {
     "type": "slider",
-    "label": "Volume de l'alerte",
+    "label": "sound volume",
     "value": 0.5,
     "min": 0,
     "max": 1,
@@ -35,28 +35,28 @@
   },
   "transparent": {
   	"type": "dropdown",
-  	"label": "Background transparent",
-  	"value": "non",
+  	"label": "Transparent background",
+  	"value": "no",
   	"options": {
-    	"yes": "oui",
-    	"no": "non"
+    	"yes": "yes",
+    	"no": "no"
 	},
     "group": "Styles"
   },
   "disposition": {
   	"type": "dropdown",
-  	"label": "Disposition",
+  	"label": "Layout",
   	"value": "basic",
   	"options": {
-    	"basic": "basique",
-    	"decal": "décalée",
-      	"decalInvert": "décalée miroir"
+    	"basic": "basic",
+    	"decal": "shifted",
+      	"decalInvert": "inverted shifted"
 	},
     "group": "Styles"
   },
   "currentSubSize": {
     "type": "slider",
-    "label": "Taille du compteur de subs",
+    "label": "Sub counter size",
     "value": 50,
     "min": 25,
     "max": 100,
@@ -65,7 +65,7 @@
   },
   "separatorSize": {
     "type": "slider",
-    "label": "Taille du séparateur",
+    "label": "Separator size",
     "value": 50,
     "min": 25,
     "max": 100,
@@ -74,7 +74,7 @@
   },
   "goalSize": {
     "type": "slider",
-    "label": "Taille du goal",
+    "label": "Sub goal size",
     "value": 50,
     "min": 25,
     "max": 100,
@@ -83,30 +83,30 @@
   },
   "separator": {
     "type": "text",
-    "label": "Symbole du séparateur",
+    "label": "Separator character",
     "value": "/",
     "group": "Styles"
   },
   "SubGoalfontType": {
       "type": "googleFont",
-      "label": "Police",
+      "label": "Font",
       "value": "Allerta",
     "group": "Styles"
   },
   "textStroke": {
     "type": "checkbox",
-    "label": "Activer contour de texte",
+    "label": "enable text outline",
     "group": "Styles"
   },
    "textStrokeColor": {
     "type": "colorpicker",
-    "label": "Couleur du contour",
+    "label": "outline color",
      "value": "#000",
      "group": "Styles"
   },
   "textStrokeWidth": {
     "type": "slider",
-    "label": "Largeur du contour",
+    "label": "outline width",
     "value": 1,
     "min": 1,
     "max": 4,
@@ -115,84 +115,84 @@
   },
   "subs_color": {
     "type": "colorpicker",
-    "label": "Couleur du compteur de sub",
+    "label": "Sub counter color",
     "value": "#FFFF",
     "group": "Styles"
   },
   "separator_color": {
     "type": "colorpicker",
-    "label": "Couleur du séparateur",
+    "label": "Separator color",
     "value": "#FFFF",
     "group": "Styles"
   },
   "goal_color": {
     "type": "colorpicker",
-    "label": "Couleur du goal",
+    "label": "Sub goal color",
     "value": "#9C9C9C",
     "group": "Styles"
   },
   "animations": {
    "type": "dropdown",
-   "label": "Activer les animations",
-   "value": "non",
+   "label": "Enable animations",
+   "value": "no",
    "options": {
-     "yes": "oui",
-     "no": "non"
+     "yes": "yes",
+     "no": "no"
      },
     "group": "Animations"
   },
   "animation_type": {
    "type": "dropdown",
-   "label": "Type d'animation",
+   "label": "Animation type",
    "value": null,
    "options": {
-     "random": "Aléatoire",
-     "heartBeat": "Battement de coeur",
-     "bounce": "Rebond",
-     "shakeX": "Secousse",
-     "tada": "Tadaaaa"
+     "random": "random",
+     "heartBeat": "heartBeat",
+     "bounce": "bounce",
+     "shakeX": "shake",
+     "tada": "tada"
      },
     "group": "Animations"
   },
   "animation_color": {
     "type": "colorpicker",
-    "label": "Couleur de l'animation",
+    "label": "Animation color",
     "value": "#CBC84B",
     "group": "Animations"
   },
   "Author": {
     "type": "hidden",
-    "label": "Widget créé par Louis_Diox",
-    "group": "Crédits"
+    "label": "Widget created by Louis_Diox",
+    "group": "Credentials"
   },
   "SocialMedia": {
     "type": "hidden",
-    "label": "▬▬▬▬▬ Réseaux sociaux ▬▬▬▬▬",
-    "group": "Crédits"
+    "label": "▬▬▬▬▬ Social Medias ▬▬▬▬▬",
+    "group": "Credentials"
   },
   "SocialMedia2": {
     "type": "hidden",
     "label": "• https://twitter.com/Diox90",
-    "group": "Crédits"
+    "group": "Credentials"
   },
   "SocialMedia3": {
     "type": "hidden",
     "label": "• https://twitch.tv/louis_diox",
-    "group": "Crédits"
+    "group": "Credentials"
   },
   "widgetName": {
     "type": "hidden",
     "value": "Advanced SubGoal",
-    "group": "Crédits"
+    "group": "Credentials"
   },
   "widgetAuthor": {
     "type": "hidden",
     "value": "Louis_Diox",
-    "group": "Crédits"
+    "group": "Credentials"
   },
   "widgetVersion": {
     "type": "hidden",
     "value": "1.0",
-    "group": "Crédits"
+    "group": "Credentials"
   }
 }
