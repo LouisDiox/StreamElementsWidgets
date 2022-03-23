@@ -7,7 +7,7 @@
 → Choisissez la résolution de votre stream <br />
 → Cliquez sur le bonton <b>ADD WIDGET</b> et choisissez "Custom Widget" dans la catégorie Static/Custom <br />
 → Cliquez sur <b>OPEN EDITOR</b><br />
-→ Supprimez TOUT le code présent dans les onglets HTML, CSS, JS et FIELDS
+→ Supprimez TOUT le code présent dans les onglets HTML, CSS, JS et FIELDS <br />
 → 
 
 
