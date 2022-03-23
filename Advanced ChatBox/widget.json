@@ -1,37 +1,37 @@
 {
   "fontType": {
       "type": "googleFont",
-      "label": "Text font",
+      "label": "Police du texte",
       "value": "Roboto",
       "group" : "Configuration"
   },
   "banwords": {
     "type": "text",
-    "label": "Banned words (separate with a comma)",
+    "label": "Mots bannis (separés par une virgule)",
     "value": "",
     "group" : "Configuration"
 
   },
   "banUsers": {
     "type": "text",
-    "label": "Hidden users (separate with a comma)",
+    "label": "Users cachés (séparés par une virgule)",
     "value": "",
     "group" : "Configuration"
 
   },
   "hideCommand": {
     "type": "checkbox",
-    "label": "Hide commands",
+    "label": "Masquer les commandes",
     "group" : "Configuration"
   },
   "animationDisplay": {
     "type": "checkbox",
-    "label": "Show animations",
+    "label": "Activer les animations",
     "group" : "Animations"
   },
   "animationType": {
     "type": "dropdown",
-    "label": "Animation Type",
+    "label": "Type d'animation",
     "value": "FadeIn",
     "options": {
       "FadeIn": "FadeIn",
@@ -42,7 +42,7 @@
   },
   "animationDuration": {
     "type": "slider",
-    "label": "Animation duration",
+    "label": "Durée de l'animation",
     "value": 0.5,
     "min": 0,
     "max": 2,
@@ -51,23 +51,23 @@
   },
   "hideBackground": {
     "type": "checkbox",
-    "label": "Hide background",
+    "label": "Masquer le background",
     "group" : "Background"
   },
   "backgroundColor": {
     "type": "colorpicker",
-    "label": "Background Color",
+    "label": "Couleur du background",
     "value": "true",
     "group" : "Background"
   },
   "backgroundRounded": {
     "type": "checkbox",
-    "label": "Rounded edges",
+    "label": "Bords arrondis",
     "group" : "Background"
   },
   "backgroundRoundedValue": {
     "type": "slider",
-    "label": "Rounding value",
+    "label": "Valeur de l'arrondi",
     "value": 10,
     "min": 0,
     "max": 50,
@@ -76,42 +76,42 @@
   },
   "Author": {
     "type": "hidden",
-    "label": "Widget created by Louis_Diox",
-    "group": "Credentials"
+    "label": "Widget codé par Louis_Diox",
+    "group": "Crédits"
   },
   "SocialMedia": {
     "type": "hidden",
-    "label": "▬▬▬▬▬ Social Medias ▬▬▬▬▬",
-    "group": "Credentials"
+    "label": "▬▬▬▬▬ Réseaux sociaux ▬▬▬▬▬",
+    "group": "Crédits"
   },
   "SocialMedia2": {
     "type": "hidden",
     "label": "• https://twitter.com/Diox90",
-    "group": "Credentials"
+    "group": "Crédits"
   },
   "SocialMedia3": {
     "type": "hidden",
     "label": "• https://www.twitch.tv/louis_diox",
-    "group": "Credentials"
+    "group": "Crédits"
   },
   "SocialMedia4": {
     "type": "hidden",
-    "label": "• https://discord.gg/KDqS3myxft",
-    "group": "Credentials"
+    "label": "• https://discord.gg/Ztmw5Hzp7V",
+    "group": "Crédits"
   },
   "widgetName": {
     "type": "hidden",
     "value": "Advanced SubGoal",
-    "group": "Credentials"
+    "group": "Crédits"
   },
   "widgetAuthor": {
     "type": "hidden",
     "value": "Louis_Diox",
-    "group": "Credentials"
+    "group": "Crédits"
   },
   "widgetVersion": {
     "type": "hidden",
     "value": "1.0",
-    "group": "Credentials"
+    "group": "Crédits"
   }
 }
