@@ -1,17 +1,17 @@
 {
   "widgetEdit": {
     "type": "checkbox",
-    "label": "Edit display",
+    "label": "Mode édition",
     "group" : "Configuration"
   },
   "audioNotification": {
    "type": "sound-input",
-   "label": "Sound played when the command is called",
+   "label": "Son joué quand l'overlay est activé",
    "group": "Configuration"
  },
   "audioVolume": {
     "type": "slider",
-    "label": "sound volume",
+    "label": "Volume du son",
     "value": 0.5,
     "min": 0,
     "max": 1,
@@ -20,7 +20,7 @@
   },
   "widgetDuration": {
     "type": "slider",
-    "label": "Widget duration",
+    "label": "Durée d'apparition",
     "value": 10,
     "min": 5,
     "max": 20,
@@ -28,14 +28,14 @@
     "group" : "Configuration"
   },
   "imageIcon": {
-    "label": "Icon (.png)",
+    "label": "Icone (.png)",
     "type": "image-input",
     "value": "https://img.icons8.com/color/48/000000/twitch--v3.png",
     "group" : "Configuration"
   },
   "IconSize": {
     "type": "slider",
-    "label": "Icon size",
+    "label": "Taille de l'icone",
     "value": 1,
     "min": 0.5,
     "max": 2,
@@ -44,7 +44,7 @@
   },
   "usernameMargin": {
     "type": "slider",
-    "label": "Username margin",
+    "label": "Décalage du pseudo",
     "value": 80,
     "min": 50,
     "max": 200,
@@ -53,24 +53,24 @@
   },
   "customCommand": {
     "type": "text",
-    "label": "Command (!broadcast by default)",
+    "label": "Commande (!broadcast par défaut)",
     "value": "",
     "group" : "Configuration"
   },
   "allowedUsers": {
     "type": "text",
-    "label": "Allowed Users (separated by a comma)",
+    "label": "Users autorisés (pseudo1,pseudo2)",
     "value": "",
     "group" : "Configuration"
   },
   "displayBadges": {
     "type": "checkbox",
-    "label": "Display user badges",
+    "label": "Afficher les badges d'utilisateurs",
     "group" : "Configuration"
   },
   "PopupfontType": {
       "type": "googleFont",
-      "label": "Text font",
+      "label": "Police du texte",
       "value": "Roboto",
       "group" : "Style"
   },
@@ -82,30 +82,30 @@
   },
   "PseudoColor": {
     "type": "colorpicker",
-    "label": "Username Color",
+    "label": "Couleur du pseudo",
     "value": "#FFF",
     "group" : "Style"
   },
   "autoPseudoColor": {
     "type": "checkbox",
-    "label": "User color as displayed on twitch chat",
+    "label": "Couleur du pseudo automatique (comme dans le chat)",
     "group" : "Style"
   },
   "TextColor": {
     "type": "colorpicker",
-    "label": "Text Color",
+    "label": "Couleur du texte",
     "value": "#FFF",
     "group" : "Style"
   },
   "TimerBarColor": {
     "type": "colorpicker",
-    "label": "Timer bar color",
+    "label": "Couleur de la barre de temps",
     "value": "#FFF",
     "group" : "Style"
   },
   "TransitionType": {
     "type": "dropdown",
-    "label": "Transition Type",
+    "label": "Type de transition",
     "value": "FadeIn",
     "options": {
       "FadeIn": "FadeIn",
@@ -117,7 +117,7 @@
   },
     "TransitionDuration": {
     "type": "slider",
-    "label": "Transition duration",
+    "label": "Durée de la transition",
     "value": 1,
     "min": 0.5,
     "max": 2,
@@ -126,42 +126,42 @@
   },
   "Author": {
     "type": "hidden",
-    "label": "Widget created by Louis_Diox",
-    "group": "Credentials"
+    "label": "Widget codé by Louis_Diox",
+    "group": "Credits"
   },
   "SocialMedia": {
     "type": "hidden",
-    "label": "▬▬▬▬▬ Social Medias ▬▬▬▬▬",
-    "group": "Credentials"
+    "label": "▬▬▬▬▬ Réseaux sociaux ▬▬▬▬▬",
+    "group": "Credits"
   },
   "SocialMedia2": {
     "type": "hidden",
     "label": "• https://twitter.com/Diox90",
-    "group": "Credentials"
+    "group": "Credits"
   },
   "SocialMedia3": {
     "type": "hidden",
     "label": "• https://www.twitch.tv/louis_diox",
-    "group": "Credentials"
+    "group": "Credits"
   },
   "SocialMedia4": {
     "type": "hidden",
     "label": "• https://discord.gg/KDqS3myxft",
-    "group": "Credentials"
+    "group": "Credits"
   },
   "widgetName": {
     "type": "hidden",
     "value": "Advanced SubGoal",
-    "group": "Credentials"
+    "group": "Credits"
   },
   "widgetAuthor": {
     "type": "hidden",
     "value": "Louis_Diox",
-    "group": "Credentials"
+    "group": "Credits"
   },
   "widgetVersion": {
     "type": "hidden",
     "value": "1.0",
-    "group": "Credentials"
+    "group": "Credits"
   }
 }
