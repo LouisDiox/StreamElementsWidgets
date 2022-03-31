@@ -1,7 +1,5 @@
 # ALERTE DE MODÉRATION
 
-## Description :
+## Prévisualisation
 
-
-
-## UTILISATION :
+## Description
