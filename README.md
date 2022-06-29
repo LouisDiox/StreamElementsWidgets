@@ -1,6 +1,6 @@
 # StreamElements Widgets
 
-## Installation :
+## Installation (French) :
 
 - Rendez vous sur [streamElements] <br />
 - Cliquez sur **New Overlay** <br />
