@@ -1,4 +1,4 @@
-# ALERTE DE MODÉRATION
+# Moderator Alert
 
 ## Prévisualisation
 
