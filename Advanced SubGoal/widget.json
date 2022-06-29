@@ -46,7 +46,7 @@
   "transparent": {
   	"type": "dropdown",
   	"label": "Transparent background",
-  	"value": "no",
+  	"value": "yes",
   	"options": {
     	"yes": "yes",
     	"no": "no"
