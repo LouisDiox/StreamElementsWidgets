@@ -82,7 +82,11 @@ window.addEventListener('onWidgetLoad', function (obj) {
 	if(forceSubGoal !== null){
     	subGoal = forceSubGoal;
 	} else {
-    	subGoal = (Math.trunc(totalSubs/steps)+1)*steps;
+      	if(steps <= 0){
+        	subGoal = totalSubs + 0;
+        } else {
+          subGoal = (Math.trunc(totalSubs/steps)+1)*steps;
+        }  
 	}
   
   	//Displaying the data on the overlay
