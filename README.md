@@ -21,6 +21,10 @@ widget-english.json → FIELDS
 - Enjoy ! 👍
 
 In case of problems or difficulties during the installation, fell free to contact me at this <a href="mailto:contact@louisdiox.fr">email</a> address
+### Social networks
+[<img align="left" alt="twitter" width="26px" src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>][twitter]
+[<img align="left" alt="twitch" width="26px" src="https://img.icons8.com/fluent/48/000000/twitch.png" />][twitch]
+
 ## Installation (French) :
 
 - Rendez vous sur [streamElements] <br />
