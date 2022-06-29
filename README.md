@@ -6,6 +6,7 @@
 - Cliquez sur **New Overlay** <br />
 - Choisissez la résolution de votre stream <br />
 - Cliquez sur le bonton **ADD WIDGET** et choisissez "Custom Widget" dans la catégorie Static/Custom <br />
+- Rendez vous dans la partie  **Position, Size and Style** et choisissez "Custom Widget" dans la catégorie Static/Custom <br />
 - Cliquez sur **OPEN EDITOR**<br />
 - Remplacer le code des onglets comme ci dessous <br />
 ```
