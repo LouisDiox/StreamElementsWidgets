@@ -167,7 +167,7 @@
   "animation_color": {
     "type": "colorpicker",
     "label": "Animation color",
-    "value": "#CBC84B",
+    "value": "#f2f0a9",
     "group": "Animations"
   },
   "Author": {
