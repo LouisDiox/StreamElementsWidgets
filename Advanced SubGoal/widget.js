@@ -2,6 +2,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
   	
   	// Getting FieldData values
 	const fieldData = obj["detail"]["fieldData"];
+  	period = fieldData["period"];
   	textStroke = fieldData["textStroke"];
   	strokeColor = fieldData["textStrokeColor"];
   	textStrokeWidth = fieldData["textStrokeWidth"];
@@ -20,7 +21,12 @@ window.addEventListener('onWidgetLoad', function (obj) {
   
   	//Getting and set other Values
   	animationList = ["heartBeat","bounce","shakeX","tada"];
-  	totalSubs = obj["detail"]["session"]["data"]["subscriber-total"]["count"] + adjustment;
+  	if(period === "daily"){
+      let sessionSubs = obj["detail"]["session"]["data"]["subscriber-session"] ? obj["detail"]["session"]["data"]["subscriber-session"]["count"] : 0
+      totalSubs = sessionSubs + adjustment;
+    } else {
+      totalSubs = obj["detail"]["session"]["data"]["subscriber-total"]["count"] + adjustment;
+    }
   
   	//Set the styles 
   	//text stroke
@@ -116,5 +122,5 @@ window.addEventListener('onEventReceived', function (obj) {
     			$('#div-goal').removeClass(animationType);
             });
       	}
-  }
+  	}
 });
