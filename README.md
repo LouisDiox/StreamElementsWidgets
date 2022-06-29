@@ -22,7 +22,7 @@ widget.json → FIELDS
 En cas de problèmes ou de difficultés lors de l'installation, vous pouvez me contacter à cette adresse <a href="mailto:contact@louisdiox.fr">mail</a>
 
 
-< br />
+<br />
 ## Installation (French) :
 
 - Rendez vous sur [streamElements] <br />
