@@ -3,7 +3,7 @@
     "type": "number",
     "label": "Incrémentation automatique",
     "value": 10,
-    "min": 1,
+    "min": 0,
     "group": "Configuration"
   },
   "adjustment": {
